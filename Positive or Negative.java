@@ -31,7 +31,7 @@ public class Main{
         System.out.print("Enter n = ");
         int n = sc.nextInt();
         for(int i=0;i<n;i++){
-            System.out.println()
+            System.out.println();
         int a = sc.nextInt();
         if(a>=0){
             System.out.println("Positive");
@@ -40,23 +40,25 @@ public class Main{
             System.out.println("Negative");
         }
         }
-        System.out.println("For loop is ended");
+        System.out.println("/n For loop is ended");
     }
 }
 INPUT :Enter n = 3
 OUTPUT :2
         Positive
+  
         -5
         Negative
+  
         8
         Positive
-
+  
+      For loop is ended
 
 -----------------------------------  -----------------------------------  -----------------------------------  -----------------------------------  -----------------------------------
 QUE : Using call method or functions for only one time
   
 import java.util.Scanner;
-
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
