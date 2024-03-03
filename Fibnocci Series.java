@@ -36,8 +36,9 @@
                     n2 = n2 + n1;
                     n1 = temp;
                     count ++;
-                    System.out.println(n2);
+                    
                     }
+                    System.out.println(n2);
             }
         }
         INPUT : 7
@@ -83,7 +84,6 @@
                     int temp = n2;
                     n2 = n2 + n1;
                     n1 = temp;
-                    System.out.println(n2);
                 } 
                  System.out.print(n2);
             }
